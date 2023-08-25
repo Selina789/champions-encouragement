@@ -1,0 +1,133 @@
+html,
+body{
+  margin: 0;
+  padding: 0;
+  background: black;
+  color: white;
+  font-family: sans-serif;
+  user-select: none;
+}
+
+img{
+  margin-top: 10%;
+  width: 100px;
+  height: 100px;
+}
+
+h1{
+  margin: 0;
+  font-size: 28px;
+  text-align: center;
+}
+
+.section{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: min-content;
+  margin: auto;
+  gap: 20px;
+}
+
+input,
+textarea{
+  background-color: #4B5563;
+  border: 0;
+  border-radius: 10px;
+  font-size: 18px;
+  font-family: sans-serif;
+  font-weight: bold;
+  text-align: center;
+  color: white;
+}
+input::placeholder,
+textarea::placeholder{
+  color: #9CA3AF;
+}
+
+.desc-style{
+  width: 80%;
+  padding: 3% 5% 20% 5%;
+  text-align: left;
+}
+
+.input-section{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  width: max-content;
+  gap: 20px;
+  height: 45px;
+}
+
+.input-address{
+  padding: 0;
+  margin: 0;
+  width: 38%;
+}
+
+button{
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 80%;
+  height: 70px;
+  background: #38BDF8;
+  color: black;
+  border: 0;
+  border-radius: 10px;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  font-size: 24px;
+  font-weight: bolder;
+  transition: 0.3s;
+}
+button:hover{
+  background: #a1dffa;
+}
+button:active{
+  background: #38BDF8;
+}
+
+ul{
+  margin: 0;
+  padding: 0;
+  color: black;
+  list-style: none;
+  width: 80%;
+}
+
+ul p{
+  font-weight: bold;
+  color: black;
+  margin: 0;
+  font-size: 20px;
+  padding: 3% 0 3% 0;
+  font-weight: bold;
+}
+.from{
+  padding: 3% 0 2% 0;
+}
+.to{
+  padding: 2% 0 3% 0;
+}
+ul li{
+  padding: 8px 0;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  font-size: 20px;
+  color: #4B5563;
+}
+
+.diver{
+  cursor: pointer;
+  padding: 0 15px;
+  background-color: white;
+  margin-bottom: 10px;
+  height: 100%;
+  border-radius: 5px;
+  margin: 3% 0;
+  width: 370px;
+  word-break: break-word;
+  font-size: 17px;
+  text-align: justify;
+}
